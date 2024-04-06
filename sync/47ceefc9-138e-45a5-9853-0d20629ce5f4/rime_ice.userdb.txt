@@ -1,0 +1,42 @@
+# Rime user dictionary
+#@/db_name	rime_ice
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	48
+#@/user_id	47ceefc9-138e-45a5-9853-0d20629ce5f4
+L X G W 	LXGW	c=1 d=1 t=12
+a 	啊	c=1 d=1 t=31
+bei xiu gai 	被修改	c=1 d=1 t=45
+beng bu zhu le 	绷不住了	c=1 d=1 t=35
+biang biang mian 	𰻝𰻝面	c=1 d=1 t=24
+hai bu shui 	还不睡	c=1 d=1 t=29
+heng xiang 	横向	c=1 d=1 t=14
+huan zi ti 	换字体	c=1 d=1 t=7
+ji lu 	记录	c=0 d=0.1 t=47
+ji lu xi guan 	记录习惯	c=1 d=1 t=48
+jian 	简	c=3 d=2.93143 t=21
+jiu wo 	就我	c=1 d=1 t=33
+ju ran 	居然	c=1 d=1 t=22
+kong ge 	空格	c=1 d=1 t=9
+le 	了	c=0 d=0.1 t=33
+mei shui 	没睡	c=0 d=0.1 t=33
+mei shui le 	没睡了	c=1 d=1 t=34
+mo ren 	默认	c=2 d=1.96561 t=43
+neng 	能	c=1 d=1 t=23
+ping fang 	苹方	c=3 d=2.93143 t=20
+shi ba 	是吧	c=1 d=1 t=30
+shu ru fa 	输入法	c=8 d=7.64805 t=44
+shuo zhai 	说寨	c=1 d=1 t=3
+ta zhen de 	他真的	c=1 d=1 t=5
+tiao zheng 	调整	c=1 d=1 t=38
+wo 	我	c=2 d=1.99501 t=2
+wo zhen de 	我真的	c=1 d=1 t=4
+wu song pin yin 	雾凇拼音	c=1 d=1 t=19
+xi guan 	习惯	c=0 d=0.1 t=47
+xiao he 	小鹤	c=1 d=1 t=28
+xiao lang hao 	小狼毫	c=4 d=3.64683 t=46
+yu lan 	预览	c=1 d=1 t=15
+yuan lai 	原来	c=1 d=1 t=32
+zi san xia qi bai li zhong 	自三峡七百里中	c=1 d=1 t=18
+zi ti 	字体	c=1 d=1 t=8
+zi xue xi 	自学习	c=1 d=1 t=47

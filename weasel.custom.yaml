@@ -1,0 +1,12 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Mon Oct  9 04:50:46 2023"
+  rime_version: 1.8.5
+patch: #补丁
+  "preset_color_schemes/+":
+    __include: "weasel_style:/preset_color_schemes"
+  "style/+":
+    __include: "weasel_style:/style"
+  __include: "weasel_style:/app_opt"

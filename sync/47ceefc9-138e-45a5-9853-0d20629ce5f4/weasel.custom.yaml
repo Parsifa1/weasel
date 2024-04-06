@@ -1,0 +1,31 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Mon Oct  9 04:50:46 2023"
+  rime_version: 1.8.5
+patch:
+  style:
+    font_face: "LXGW WenKai"
+    font_point: 13
+    horizontal: true
+    color_scheme: dark_temple
+    layout:
+      align_type: center
+      max_height: 0
+      max_width: 0
+      min_height: 0
+      min_width: 160
+      type: horizontal
+      border_width: 3
+      margin_x: 12
+      margin_y: 12
+      spacing: 10
+      candidate_spacing: 5
+      hilite_spacing: 4
+      hilite_padding: 2
+      shadow_offset_x: 4
+      shadow_offset_y: 4
+      shadow_radius: 0
+      corner_radius: 8
+    # round_corner: 8
