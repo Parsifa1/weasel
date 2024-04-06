@@ -5,7 +5,7 @@
 #@/tick	6
 #@/user_id	47ceefc9-138e-45a5-9853-0d20629ce5f4
 ci ku 	詞庫	c=1 d=1 t=6
-jian ti zhong wen 	簡體中文	c=1 d=1 t=5
-pi fu 	皮膚	c=1 d=1 t=2
-xiao 	小	c=1 d=1 t=3
-xiao lang hao 	小狼毫	c=2 d=1.98511 t=4
+jian ti zhong wen 	簡體中文	c=1 d=0.995012 t=6
+pi fu 	皮膚	c=1 d=0.980199 t=6
+xiao 	小	c=1 d=0.985112 t=6
+xiao lang hao 	小狼毫	c=2 d=1.96536 t=6

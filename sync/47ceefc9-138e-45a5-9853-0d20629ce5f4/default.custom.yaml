@@ -7,3 +7,5 @@ customization:
 patch:
   schema_list:
     - {schema: double_pinyin_flypy}
+  switcher/hotkeys:
+    - Control+F4
