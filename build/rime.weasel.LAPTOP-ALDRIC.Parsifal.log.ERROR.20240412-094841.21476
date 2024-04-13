@@ -1,7 +1,0 @@
-Log file created at: 2024/04/12 09:48:41
-Running on machine: LAPTOP-ALDRIC
-Running duration (h:mm:ss): 0:00:00
-Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
-E20240412 09:48:41.816711 20432 lua_gears.cc:225] LuaProcessor::ProcessKeyEvent of *vim_mode error(2): bad argument #2 to '?' (struct LuaType<class rime::Engine & __ptr64> expected)
-E20240412 09:48:41.968605 20432 lua_gears.cc:225] LuaProcessor::ProcessKeyEvent of *vim_mode error(2): bad argument #2 to '?' (struct LuaType<class rime::Engine & __ptr64> expected)
-E20240412 09:48:42.103155 20432 lua_gears.cc:225] LuaProcessor::ProcessKeyEvent of *vim_mode error(2): bad argument #2 to '?' (struct LuaType<class rime::Engine & __ptr64> expected)
