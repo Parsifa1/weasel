@@ -1,0 +1,1767 @@
+Log file created at: 2024/04/12 09:31:54
+Running on machine: LAPTOP-ALDRIC
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240412 09:31:54.623517 21456 core_module.cc:20] registering core components.
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: config_builder
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: config
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: schema
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: user_config
+I20240412 09:31:54.646502 21456 dict_module.cc:25] registering components from module 'dict'.
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: tabledb
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: stabledb
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: plain_userdb
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: userdb
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: corrector
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: dictionary
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: reverse_lookup_dictionary
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: user_dictionary
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: userdb_recovery_task
+I20240412 09:31:54.646502 21456 gears_module.cc:42] registering components from module 'gears'.
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: ascii_composer
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: chord_composer
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: express_editor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: fluid_editor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: fluency_editor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: key_binder
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: navigator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: punctuator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: recognizer
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: selector
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: speller
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: shape_processor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: abc_segmentor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: affix_segmentor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: ascii_segmentor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: matcher
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: punct_segmentor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: fallback_segmentor
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: echo_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: punct_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: table_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: script_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: r10n_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: reverse_lookup_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: schema_list_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: switch_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: history_translator
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: simplifier
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: uniquifier
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: charset_filter
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: cjk_minifier
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: reverse_lookup_filter
+I20240412 09:31:54.646502 21456 registry.cc:14] registering component: single_char_filter
+I20240412 09:31:54.647501 21456 registry.cc:14] registering component: shape_formatter
+I20240412 09:31:54.647501 21456 registry.cc:14] registering component: codepoint_translator
+I20240412 09:31:54.647501 21456 registry.cc:14] registering component: charset_filter
+W20240412 09:31:54.647501 21456 registry.cc:16] replacing previously registered component: charset_filter
+I20240412 09:31:54.648501 21456 modules.cc:65] registering components from module 'lua'.
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: lua_translator
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: lua_filter
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: lua_segmentor
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: lua_processor
+I20240412 09:31:54.651500 21456 grammar_module.cc:15] registering components from module 'grammar'.
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: grammar
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: predictor
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: predict_translator
+I20240412 09:31:54.651500 21456 levers_module.cc:22] registering components from module 'levers'.
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: detect_modifications
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: installation_update
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: workspace_update
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: schema_update
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: config_file_update
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: prebuild_all_schemas
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: user_dict_upgrade
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: cleanup_trash
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: user_dict_sync
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: backup_config_files
+I20240412 09:31:54.651500 21456 registry.cc:14] registering component: clean_old_log_files
+I20240412 09:31:54.741250 21456 deployment_tasks.cc:664] cleaned 2 log files.
+I20240412 09:31:54.741250 21456 deployment_tasks.cc:85] updating rime installation info.
+I20240412 09:31:54.742249 21456 config_data.cc:69] loading config file 'C:\Users\Parsifal\AppData\Roaming\Rime\installation.yaml'.
+I20240412 09:31:54.744249 21456 deployment_tasks.cc:103] installation info exists. installation id: 47ceefc9-138e-45a5-9853-0d20629ce5f4
+I20240412 09:31:54.744249 21456 deployment_tasks.cc:114] sync dir: C:\Users\Parsifal\AppData\Roaming\Rime\sync
+I20240412 09:31:54.744249 21456 deployment_tasks.cc:116] previous distribution: Weasel
+I20240412 09:31:54.744249 21456 deployment_tasks.cc:119] previous distribution version: 0.15.1.0
+I20240412 09:31:54.744249 21456 deployment_tasks.cc:122] previous Rime version: 1.9.0
+I20240412 09:31:54.823042 21456 config_data.cc:69] loading config file 'C:\Users\Parsifal\AppData\Roaming\Rime\user.yaml'.
+I20240412 09:31:54.823042 21456 config_data.cc:69] loading config file 'C:\Users\Parsifal\AppData\Roaming\Rime\build\weasel.yaml'.
+I20240412 09:32:04.242591 21756 config_data.cc:69] loading config file 'C:\Users\Parsifal\AppData\Roaming\Rime\build\default.yaml'.
+I20240412 09:32:04.516047 21756 engine.cc:74] starting engine.
+I20240412 09:32:04.517189 21756 config_data.cc:69] loading config file 'C:\Users\Parsifal\AppData\Roaming\Rime\user.yaml'.
+I20240412 09:32:04.527153 21756 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:04.527153 21756 engine.cc:130] updated option: full_shape
+I20240412 09:32:04.527153 21756 engine.cc:130] updated option: traditionalization
+I20240412 09:32:04.527153 21756 config_data.cc:69] loading config file 'C:\Users\Parsifal\AppData\Roaming\Rime\build\double_pinyin_flypy.schema.yaml'.
+I20240412 09:32:04.553766 21756 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:04.558187 21756 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:04.558187 21756 table.cc:254] loading table file: C:\Users\Parsifal\AppData\Roaming\Rime\build\rime_ice.table.bin
+I20240412 09:32:04.620671 21756 prism.cc:76] loading prism file: C:\Users\Parsifal\AppData\Roaming\Rime\build\double_pinyin_flypy.prism.bin
+I20240412 09:32:04.621666 21756 prism.cc:106] found double array image of size 1024.
+I20240412 09:32:04.731741 21756 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:04.731741 21756 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:04.731741 21756 table.cc:254] loading table file: C:\Users\Parsifal\AppData\Roaming\Rime\build\melt_eng.table.bin
+I20240412 09:32:04.732749 21756 prism.cc:76] loading prism file: C:\Users\Parsifal\AppData\Roaming\Rime\build\melt_eng.prism.bin
+I20240412 09:32:04.733758 21756 prism.cc:106] found double array image of size 657152.
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: traditionalization
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: emoji
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: full_shape
+I20240412 09:32:04.733758 21756 engine.cc:144] updated property: client_app
+I20240412 09:32:04.733758 21756 engine.cc:144] updated property: client_type
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:04.733758 21756 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:07.493292 23496 engine.cc:74] starting engine.
+I20240412 09:32:07.493292 23496 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:07.493292 23496 engine.cc:130] updated option: full_shape
+I20240412 09:32:07.493292 23496 engine.cc:130] updated option: traditionalization
+I20240412 09:32:07.493292 23496 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:07.493292 23496 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:07.494293 23496 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:07.494293 23496 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: traditionalization
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: emoji
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: full_shape
+I20240412 09:32:07.494293 23496 engine.cc:144] updated property: client_app
+I20240412 09:32:07.494293 23496 engine.cc:144] updated property: client_type
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:07.494293 23496 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:07.836120 21068 engine.cc:74] starting engine.
+I20240412 09:32:07.836120 21068 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:07.836120 21068 engine.cc:130] updated option: full_shape
+I20240412 09:32:07.836120 21068 engine.cc:130] updated option: traditionalization
+I20240412 09:32:07.836120 21068 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:07.836120 21068 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:07.836120 21068 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:07.836120 21068 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: traditionalization
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: emoji
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: full_shape
+I20240412 09:32:07.836653 21068 engine.cc:144] updated property: client_app
+I20240412 09:32:07.836653 21068 engine.cc:144] updated property: client_type
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:07.836653 21068 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:07.924767 24632 engine.cc:74] starting engine.
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: full_shape
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: traditionalization
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:07.924767 24632 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:07.924767 24632 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:07.924767 24632 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: traditionalization
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: emoji
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: full_shape
+I20240412 09:32:07.924767 24632 engine.cc:144] updated property: client_app
+I20240412 09:32:07.924767 24632 engine.cc:144] updated property: client_type
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:07.924767 24632 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:10.494237 26448 engine.cc:74] starting engine.
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: full_shape
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: traditionalization
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:10.494237 26448 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:10.494237 26448 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:10.494237 26448 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: traditionalization
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: emoji
+I20240412 09:32:10.494237 26448 engine.cc:130] updated option: full_shape
+I20240412 09:32:10.494237 26448 engine.cc:144] updated property: client_app
+I20240412 09:32:10.494237 26448 engine.cc:144] updated property: client_type
+I20240412 09:32:10.495237 26448 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:10.495237 26448 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:10.495237 26448 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:10.495237 26448 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:10.954038 26108 engine.cc:74] starting engine.
+I20240412 09:32:10.955039 26108 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:10.955039 26108 engine.cc:130] updated option: full_shape
+I20240412 09:32:10.955039 26108 engine.cc:130] updated option: traditionalization
+I20240412 09:32:10.955039 26108 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:10.955039 26108 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:10.956040 26108 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:10.956040 26108 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: traditionalization
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: emoji
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: full_shape
+I20240412 09:32:10.956040 26108 engine.cc:144] updated property: client_app
+I20240412 09:32:10.956040 26108 engine.cc:144] updated property: client_type
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:10.956040 26108 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:11.073102 26448 engine.cc:93] engine disposed.
+I20240412 09:32:11.567552 27148 engine.cc:74] starting engine.
+I20240412 09:32:11.567552 27148 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:11.567552 27148 engine.cc:130] updated option: full_shape
+I20240412 09:32:11.567552 27148 engine.cc:130] updated option: traditionalization
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:11.568552 27148 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:11.568552 27148 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:11.568552 27148 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: traditionalization
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: emoji
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: full_shape
+I20240412 09:32:11.568552 27148 engine.cc:144] updated property: client_app
+I20240412 09:32:11.568552 27148 engine.cc:144] updated property: client_type
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:11.568552 27148 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:16.680655 30488 engine.cc:74] starting engine.
+I20240412 09:32:16.680655 30488 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:16.680655 30488 engine.cc:130] updated option: full_shape
+I20240412 09:32:16.680655 30488 engine.cc:130] updated option: traditionalization
+I20240412 09:32:16.680655 30488 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:16.680655 30488 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:16.681655 30488 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:16.681655 30488 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: traditionalization
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: emoji
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: full_shape
+I20240412 09:32:16.681655 30488 engine.cc:144] updated property: client_app
+I20240412 09:32:16.681655 30488 engine.cc:144] updated property: client_type
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:16.681655 30488 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:18.412892 31356 engine.cc:74] starting engine.
+I20240412 09:32:18.412892 31356 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:18.413414 31356 engine.cc:130] updated option: full_shape
+I20240412 09:32:18.413414 31356 engine.cc:130] updated option: traditionalization
+I20240412 09:32:18.413414 31356 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:18.413414 31356 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:18.413935 31356 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:18.413935 31356 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: traditionalization
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: emoji
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: full_shape
+I20240412 09:32:18.413935 31356 engine.cc:144] updated property: client_app
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:18.413935 31356 engine.cc:144] updated property: client_type
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:18.413935 31356 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:18.414460 31356 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:18.414460 31356 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:20.752213 33080 engine.cc:74] starting engine.
+I20240412 09:32:20.752213 33080 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:20.752213 33080 engine.cc:130] updated option: full_shape
+I20240412 09:32:20.752732 33080 engine.cc:130] updated option: traditionalization
+I20240412 09:32:20.752787 33080 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:20.752787 33080 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:20.752787 33080 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:20.753290 33080 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:20.753290 33080 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:20.753290 33080 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:20.753290 33080 engine.cc:130] updated option: traditionalization
+I20240412 09:32:20.753290 33080 engine.cc:130] updated option: emoji
+I20240412 09:32:20.753290 33080 engine.cc:130] updated option: full_shape
+I20240412 09:32:20.753290 33080 engine.cc:144] updated property: client_app
+I20240412 09:32:20.753290 33080 engine.cc:144] updated property: client_type
+I20240412 09:32:20.753290 33080 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:20.753290 33080 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:20.753906 33080 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:20.753906 33080 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:36.763877 34084 engine.cc:74] starting engine.
+I20240412 09:32:36.877250 34084 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:36.877250 34084 engine.cc:130] updated option: full_shape
+I20240412 09:32:36.877250 34084 engine.cc:130] updated option: traditionalization
+I20240412 09:32:36.877250 34084 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:36.877250 34084 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:36.877756 34084 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:36.877756 34084 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: traditionalization
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: emoji
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: full_shape
+I20240412 09:32:36.877821 34084 engine.cc:144] updated property: client_app
+I20240412 09:32:36.877821 34084 engine.cc:144] updated property: client_type
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:36.877821 34084 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:38.756596 34408 engine.cc:74] starting engine.
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: full_shape
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: traditionalization
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:38.756596 34408 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:38.756596 34408 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:38.756596 34408 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: traditionalization
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: emoji
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: full_shape
+I20240412 09:32:38.756596 34408 engine.cc:144] updated property: client_app
+I20240412 09:32:38.756596 34408 engine.cc:144] updated property: client_type
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:38.756596 34408 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:38.757596 34408 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:38.757596 34408 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:41.197891 34600 engine.cc:74] starting engine.
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: full_shape
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: traditionalization
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:41.197891 34600 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:41.197891 34600 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:41.197891 34600 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: traditionalization
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: emoji
+I20240412 09:32:41.197891 34600 engine.cc:130] updated option: full_shape
+I20240412 09:32:41.198889 34600 engine.cc:144] updated property: client_app
+I20240412 09:32:41.198889 34600 engine.cc:144] updated property: client_type
+I20240412 09:32:41.198889 34600 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:41.198889 34600 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:41.198889 34600 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:41.198889 34600 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:46.619618 21508 engine.cc:74] starting engine.
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: full_shape
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: traditionalization
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: _auto_commit
+I20240412 09:32:46.619618 21508 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:32:46.619618 21508 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:32:46.619618 21508 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: ascii_mode
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: ascii_punct
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: traditionalization
+I20240412 09:32:46.619618 21508 engine.cc:130] updated option: emoji
+I20240412 09:32:46.620618 21508 engine.cc:130] updated option: full_shape
+I20240412 09:32:46.620618 21508 engine.cc:144] updated property: client_app
+I20240412 09:32:46.620618 21508 engine.cc:144] updated property: client_type
+I20240412 09:32:46.620618 21508 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:46.620618 21508 engine.cc:130] updated option: soft_cursor
+I20240412 09:32:46.620618 21508 engine.cc:130] updated option: inline_preedit
+I20240412 09:32:46.620618 21508 engine.cc:130] updated option: soft_cursor
+I20240412 09:33:08.235489  7864 engine.cc:74] starting engine.
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: ascii_punct
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: full_shape
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: traditionalization
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: _auto_commit
+I20240412 09:33:08.236492  7864 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:33:08.236492  7864 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:33:08.236492  7864 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: ascii_mode
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: ascii_punct
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: traditionalization
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: emoji
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: full_shape
+I20240412 09:33:08.236492  7864 engine.cc:144] updated property: client_app
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: ascii_mode
+I20240412 09:33:08.236492  7864 engine.cc:144] updated property: client_type
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: inline_preedit
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: soft_cursor
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: inline_preedit
+I20240412 09:33:08.236492  7864 engine.cc:130] updated option: soft_cursor
+I20240412 09:33:10.142063  9836 engine.cc:74] starting engine.
+I20240412 09:33:10.142063  9836 engine.cc:130] updated option: ascii_punct
+I20240412 09:33:10.142063  9836 engine.cc:130] updated option: full_shape
+I20240412 09:33:10.142063  9836 engine.cc:130] updated option: traditionalization
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: _auto_commit
+I20240412 09:33:10.143064  9836 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:33:10.143064  9836 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:33:10.143064  9836 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: ascii_mode
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: ascii_punct
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: traditionalization
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: emoji
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: full_shape
+I20240412 09:33:10.143064  9836 engine.cc:144] updated property: client_app
+I20240412 09:33:10.143064  9836 engine.cc:144] updated property: client_type
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: inline_preedit
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: soft_cursor
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: inline_preedit
+I20240412 09:33:10.143064  9836 engine.cc:130] updated option: soft_cursor
+I20240412 09:33:27.347406  9836 engine.cc:93] engine disposed.
+I20240412 09:33:28.619817 33872 engine.cc:74] starting engine.
+I20240412 09:33:28.619817 33872 engine.cc:130] updated option: ascii_punct
+I20240412 09:33:28.619817 33872 engine.cc:130] updated option: full_shape
+I20240412 09:33:28.619817 33872 engine.cc:130] updated option: traditionalization
+I20240412 09:33:28.619817 33872 engine.cc:130] updated option: _auto_commit
+I20240412 09:33:28.619817 33872 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:33:28.620735 33872 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:33:28.620735 33872 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:33:28.620735 33872 engine.cc:130] updated option: ascii_mode
+I20240412 09:33:28.620735 33872 engine.cc:130] updated option: ascii_punct
+I20240412 09:33:28.620735 33872 engine.cc:130] updated option: traditionalization
+I20240412 09:33:28.620735 33872 engine.cc:130] updated option: emoji
+I20240412 09:33:28.620735 33872 engine.cc:130] updated option: full_shape
+I20240412 09:33:28.620735 33872 engine.cc:144] updated property: client_app
+I20240412 09:33:28.620735 33872 engine.cc:144] updated property: client_type
+I20240412 09:33:28.620735 33872 engine.cc:130] updated option: inline_preedit
+I20240412 09:33:28.620735 33872 engine.cc:130] updated option: soft_cursor
+I20240412 09:33:28.621752 33872 engine.cc:130] updated option: inline_preedit
+I20240412 09:33:28.621752 33872 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:09.307960 33080 engine.cc:93] engine disposed.
+I20240412 09:34:09.533370 17500 engine.cc:74] starting engine.
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: full_shape
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: traditionalization
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: _auto_commit
+I20240412 09:34:09.534368 17500 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:34:09.534368 17500 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:34:09.534368 17500 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: ascii_mode
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: traditionalization
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: emoji
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: full_shape
+I20240412 09:34:09.534368 17500 engine.cc:144] updated property: client_app
+I20240412 09:34:09.534368 17500 engine.cc:144] updated property: client_type
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:09.534368 17500 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:10.255524 33048 engine.cc:74] starting engine.
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: full_shape
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: traditionalization
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: _auto_commit
+I20240412 09:34:10.255524 33048 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:34:10.255524 33048 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:34:10.255524 33048 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: ascii_mode
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: traditionalization
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: emoji
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: full_shape
+I20240412 09:34:10.255524 33048 engine.cc:144] updated property: client_app
+I20240412 09:34:10.255524 33048 engine.cc:144] updated property: client_type
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:10.255524 33048 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:10.256526 33048 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:10.256526 33048 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:16.511313 17500 engine.cc:93] engine disposed.
+I20240412 09:34:16.790849 29108 engine.cc:74] starting engine.
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: full_shape
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: traditionalization
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: _auto_commit
+I20240412 09:34:16.791847 29108 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:34:16.791847 29108 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:34:16.791847 29108 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: ascii_mode
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: traditionalization
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: emoji
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: full_shape
+I20240412 09:34:16.791847 29108 engine.cc:144] updated property: client_app
+I20240412 09:34:16.791847 29108 engine.cc:144] updated property: client_type
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:16.791847 29108 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:18.724087 29108 engine.cc:93] engine disposed.
+I20240412 09:34:19.257218  3848 engine.cc:74] starting engine.
+I20240412 09:34:19.257218  3848 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:19.257218  3848 engine.cc:130] updated option: full_shape
+I20240412 09:34:19.257218  3848 engine.cc:130] updated option: traditionalization
+I20240412 09:34:19.257218  3848 engine.cc:130] updated option: _auto_commit
+I20240412 09:34:19.257218  3848 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:34:19.257218  3848 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:34:19.257218  3848 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: ascii_mode
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: traditionalization
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: emoji
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: full_shape
+I20240412 09:34:19.257745  3848 engine.cc:144] updated property: client_app
+I20240412 09:34:19.257745  3848 engine.cc:144] updated property: client_type
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:19.257745  3848 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:46.982731  3336 engine.cc:74] starting engine.
+I20240412 09:34:46.982731  3336 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:46.982731  3336 engine.cc:130] updated option: full_shape
+I20240412 09:34:46.982731  3336 engine.cc:130] updated option: traditionalization
+I20240412 09:34:46.982731  3336 engine.cc:130] updated option: _auto_commit
+I20240412 09:34:46.982731  3336 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:34:46.982731  3336 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:34:46.982731  3336 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: ascii_mode
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: traditionalization
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: emoji
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: full_shape
+I20240412 09:34:46.983752  3336 engine.cc:144] updated property: client_app
+I20240412 09:34:46.983752  3336 engine.cc:144] updated property: client_type
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:46.983752  3336 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:47.070875 29020 engine.cc:74] starting engine.
+I20240412 09:34:47.070875 29020 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:47.070875 29020 engine.cc:130] updated option: full_shape
+I20240412 09:34:47.070875 29020 engine.cc:130] updated option: traditionalization
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: _auto_commit
+I20240412 09:34:47.071877 29020 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:34:47.071877 29020 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:34:47.071877 29020 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: ascii_mode
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: traditionalization
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: emoji
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: full_shape
+I20240412 09:34:47.071877 29020 engine.cc:144] updated property: client_app
+I20240412 09:34:47.071877 29020 engine.cc:144] updated property: client_type
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:47.071877 29020 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:49.000380 33872 engine.cc:93] engine disposed.
+I20240412 09:34:56.975934  2100 engine.cc:74] starting engine.
+I20240412 09:34:56.975934  2100 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:56.975934  2100 engine.cc:130] updated option: full_shape
+I20240412 09:34:56.975934  2100 engine.cc:130] updated option: traditionalization
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: _auto_commit
+I20240412 09:34:56.976935  2100 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:34:56.976935  2100 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:34:56.976935  2100 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: ascii_mode
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: ascii_punct
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: traditionalization
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: emoji
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: full_shape
+I20240412 09:34:56.976935  2100 engine.cc:144] updated property: client_app
+I20240412 09:34:56.976935  2100 engine.cc:144] updated property: client_type
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: soft_cursor
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: inline_preedit
+I20240412 09:34:56.976935  2100 engine.cc:130] updated option: soft_cursor
+I20240412 09:35:14.422310 30544 engine.cc:74] starting engine.
+I20240412 09:35:14.422310 30544 engine.cc:130] updated option: ascii_punct
+I20240412 09:35:14.422310 30544 engine.cc:130] updated option: full_shape
+I20240412 09:35:14.422310 30544 engine.cc:130] updated option: traditionalization
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: _auto_commit
+I20240412 09:35:14.422879 30544 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:35:14.422879 30544 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:35:14.422879 30544 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: ascii_mode
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: ascii_punct
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: traditionalization
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: emoji
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: full_shape
+I20240412 09:35:14.422879 30544 engine.cc:144] updated property: client_app
+I20240412 09:35:14.422879 30544 engine.cc:144] updated property: client_type
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: inline_preedit
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: soft_cursor
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: inline_preedit
+I20240412 09:35:14.422879 30544 engine.cc:130] updated option: soft_cursor
+I20240412 09:35:14.822852 30544 engine.cc:130] updated option: ascii_mode
+I20240412 09:35:15.555105 30544 engine.cc:130] updated option: ascii_mode
+I20240412 09:35:16.014207 30544 engine.cc:130] updated option: ascii_mode
+I20240412 09:35:56.462710 26916 engine.cc:74] starting engine.
+I20240412 09:35:56.462710 26916 engine.cc:130] updated option: ascii_punct
+I20240412 09:35:56.462710 26916 engine.cc:130] updated option: full_shape
+I20240412 09:35:56.462710 26916 engine.cc:130] updated option: traditionalization
+I20240412 09:35:56.462710 26916 engine.cc:130] updated option: _auto_commit
+I20240412 09:35:56.462710 26916 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:35:56.462710 26916 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:35:56.462710 26916 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: ascii_mode
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: ascii_punct
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: traditionalization
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: emoji
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: full_shape
+I20240412 09:35:56.463713 26916 engine.cc:144] updated property: client_app
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: ascii_mode
+I20240412 09:35:56.463713 26916 engine.cc:144] updated property: client_type
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: inline_preedit
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: soft_cursor
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: inline_preedit
+I20240412 09:35:56.463713 26916 engine.cc:130] updated option: soft_cursor
+I20240412 09:36:24.195526  5040 engine.cc:74] starting engine.
+I20240412 09:36:24.196079  5040 engine.cc:130] updated option: ascii_punct
+I20240412 09:36:24.196079  5040 engine.cc:130] updated option: full_shape
+I20240412 09:36:24.196079  5040 engine.cc:130] updated option: traditionalization
+I20240412 09:36:24.196079  5040 engine.cc:130] updated option: _auto_commit
+I20240412 09:36:24.196079  5040 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:36:24.196079  5040 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:36:24.196079  5040 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: ascii_mode
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: ascii_punct
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: traditionalization
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: emoji
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: full_shape
+I20240412 09:36:24.196597  5040 engine.cc:144] updated property: client_app
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: ascii_mode
+I20240412 09:36:24.196597  5040 engine.cc:144] updated property: client_type
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: inline_preedit
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: soft_cursor
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: inline_preedit
+I20240412 09:36:24.196597  5040 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:08.977694 20928 engine.cc:74] starting engine.
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: full_shape
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: traditionalization
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: _auto_commit
+I20240412 09:38:08.977694 20928 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:38:08.977694 20928 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:38:08.977694 20928 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: ascii_mode
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: traditionalization
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: emoji
+I20240412 09:38:08.977694 20928 engine.cc:130] updated option: full_shape
+I20240412 09:38:08.979202 20928 engine.cc:144] updated property: client_app
+I20240412 09:38:08.979202 20928 engine.cc:130] updated option: ascii_mode
+I20240412 09:38:08.979202 20928 engine.cc:144] updated property: client_type
+I20240412 09:38:08.979202 20928 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:08.979202 20928 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:08.979202 20928 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:08.979202 20928 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:31.962430  4512 engine.cc:74] starting engine.
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: full_shape
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: traditionalization
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: _auto_commit
+I20240412 09:38:31.962430  4512 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:38:31.962430  4512 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:38:31.962430  4512 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: ascii_mode
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: traditionalization
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: emoji
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: full_shape
+I20240412 09:38:31.962430  4512 engine.cc:144] updated property: client_app
+I20240412 09:38:31.962430  4512 engine.cc:144] updated property: client_type
+I20240412 09:38:31.962430  4512 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:31.963429  4512 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:31.963429  4512 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:31.963429  4512 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:32.461803  8992 engine.cc:74] starting engine.
+I20240412 09:38:32.461803  8992 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:32.461803  8992 engine.cc:130] updated option: full_shape
+I20240412 09:38:32.461803  8992 engine.cc:130] updated option: traditionalization
+I20240412 09:38:32.461803  8992 engine.cc:130] updated option: _auto_commit
+I20240412 09:38:32.462306  8992 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:38:32.462306  8992 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:38:32.462306  8992 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: ascii_mode
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: traditionalization
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: emoji
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: full_shape
+I20240412 09:38:32.462826  8992 engine.cc:144] updated property: client_app
+I20240412 09:38:32.462826  8992 engine.cc:144] updated property: client_type
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:32.462826  8992 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:45.593869 22688 engine.cc:74] starting engine.
+I20240412 09:38:45.593869 22688 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:45.593869 22688 engine.cc:130] updated option: full_shape
+I20240412 09:38:45.593869 22688 engine.cc:130] updated option: traditionalization
+I20240412 09:38:45.593869 22688 engine.cc:130] updated option: _auto_commit
+I20240412 09:38:45.593869 22688 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:38:45.593869 22688 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:38:45.593869 22688 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: ascii_mode
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: traditionalization
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: emoji
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: full_shape
+I20240412 09:38:45.594868 22688 engine.cc:144] updated property: client_app
+I20240412 09:38:45.594868 22688 engine.cc:144] updated property: client_type
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:45.594868 22688 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:46.381547  8992 engine.cc:93] engine disposed.
+I20240412 09:38:46.400573  4512 engine.cc:93] engine disposed.
+I20240412 09:38:46.546912 34156 engine.cc:74] starting engine.
+I20240412 09:38:46.546912 34156 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:46.546912 34156 engine.cc:130] updated option: full_shape
+I20240412 09:38:46.546912 34156 engine.cc:130] updated option: traditionalization
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: _auto_commit
+I20240412 09:38:46.547914 34156 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:38:46.547914 34156 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:38:46.547914 34156 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: ascii_mode
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: ascii_punct
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: traditionalization
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: emoji
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: full_shape
+I20240412 09:38:46.547914 34156 engine.cc:144] updated property: client_app
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: ascii_mode
+I20240412 09:38:46.547914 34156 engine.cc:144] updated property: client_type
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: soft_cursor
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: inline_preedit
+I20240412 09:38:46.547914 34156 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:12.388213 34584 engine.cc:74] starting engine.
+I20240412 09:39:12.388213 34584 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:12.388213 34584 engine.cc:130] updated option: full_shape
+I20240412 09:39:12.388213 34584 engine.cc:130] updated option: traditionalization
+I20240412 09:39:12.388213 34584 engine.cc:130] updated option: _auto_commit
+I20240412 09:39:12.388213 34584 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:39:12.389189 34584 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:39:12.389189 34584 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: traditionalization
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: emoji
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: full_shape
+I20240412 09:39:12.389189 34584 engine.cc:144] updated property: client_app
+I20240412 09:39:12.389189 34584 engine.cc:144] updated property: client_type
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:12.389189 34584 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:16.569911 31140 engine.cc:74] starting engine.
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: full_shape
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: traditionalization
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: _auto_commit
+I20240412 09:39:16.569911 31140 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:39:16.569911 31140 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:39:16.569911 31140 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: traditionalization
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: emoji
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: full_shape
+I20240412 09:39:16.569911 31140 engine.cc:144] updated property: client_app
+I20240412 09:39:16.569911 31140 engine.cc:144] updated property: client_type
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:16.569911 31140 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:21.492238 17496 engine.cc:74] starting engine.
+I20240412 09:39:21.492238 17496 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:21.492238 17496 engine.cc:130] updated option: full_shape
+I20240412 09:39:21.492238 17496 engine.cc:130] updated option: traditionalization
+I20240412 09:39:21.492238 17496 engine.cc:130] updated option: _auto_commit
+I20240412 09:39:21.492238 17496 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:39:21.492238 17496 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:39:21.492238 17496 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:39:21.492238 17496 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:21.492238 17496 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: traditionalization
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: emoji
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: full_shape
+I20240412 09:39:21.493234 17496 engine.cc:144] updated property: client_app
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:21.493234 17496 engine.cc:144] updated property: client_type
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:21.493234 17496 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:32.031474  4168 engine.cc:74] starting engine.
+I20240412 09:39:32.031474  4168 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:32.031474  4168 engine.cc:130] updated option: full_shape
+I20240412 09:39:32.031474  4168 engine.cc:130] updated option: traditionalization
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: _auto_commit
+I20240412 09:39:32.032481  4168 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:39:32.032481  4168 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:39:32.032481  4168 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: traditionalization
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: emoji
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: full_shape
+I20240412 09:39:32.032481  4168 engine.cc:144] updated property: client_app
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:32.032481  4168 engine.cc:144] updated property: client_type
+I20240412 09:39:32.032481  4168 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:32.033474  4168 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:32.033474  4168 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:32.033474  4168 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:34.450083 20332 engine.cc:74] starting engine.
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: full_shape
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: traditionalization
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: _auto_commit
+I20240412 09:39:34.450083 20332 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:39:34.450083 20332 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:39:34.450083 20332 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: traditionalization
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: emoji
+I20240412 09:39:34.450083 20332 engine.cc:130] updated option: full_shape
+I20240412 09:39:34.450083 20332 engine.cc:144] updated property: client_app
+I20240412 09:39:34.451069 20332 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:34.451069 20332 engine.cc:144] updated property: client_type
+I20240412 09:39:34.451069 20332 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:34.451069 20332 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:34.451069 20332 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:34.451069 20332 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:39.080907 27824 engine.cc:74] starting engine.
+I20240412 09:39:39.080907 27824 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:39.080907 27824 engine.cc:130] updated option: full_shape
+I20240412 09:39:39.080907 27824 engine.cc:130] updated option: traditionalization
+I20240412 09:39:39.080907 27824 engine.cc:130] updated option: _auto_commit
+I20240412 09:39:39.081908 27824 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:39:39.081908 27824 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:39:39.081908 27824 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: ascii_mode
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: ascii_punct
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: traditionalization
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: emoji
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: full_shape
+I20240412 09:39:39.081908 27824 engine.cc:144] updated property: client_app
+I20240412 09:39:39.081908 27824 engine.cc:144] updated property: client_type
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: inline_preedit
+I20240412 09:39:39.081908 27824 engine.cc:130] updated option: soft_cursor
+I20240412 09:39:42.327457 27824 engine.cc:93] engine disposed.
+I20240412 09:39:43.383949 20332 engine.cc:93] engine disposed.
+I20240412 09:39:44.927718  4168 engine.cc:93] engine disposed.
+I20240412 09:39:45.342204 17496 engine.cc:93] engine disposed.
+I20240412 09:39:50.948781 31140 engine.cc:93] engine disposed.
+I20240412 09:40:12.574744 10268 engine.cc:74] starting engine.
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: full_shape
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: traditionalization
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: _auto_commit
+I20240412 09:40:12.574744 10268 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:40:12.574744 10268 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:40:12.574744 10268 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: ascii_mode
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: traditionalization
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: emoji
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: full_shape
+I20240412 09:40:12.574744 10268 engine.cc:144] updated property: client_app
+I20240412 09:40:12.574744 10268 engine.cc:144] updated property: client_type
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:12.574744 10268 engine.cc:130] updated option: soft_cursor
+I20240412 09:40:12.575716 10268 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:12.575716 10268 engine.cc:130] updated option: soft_cursor
+I20240412 09:40:26.717784  7388 engine.cc:74] starting engine.
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: full_shape
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: traditionalization
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: _auto_commit
+I20240412 09:40:26.717784  7388 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:40:26.717784  7388 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:40:26.717784  7388 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: ascii_mode
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: traditionalization
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: emoji
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: full_shape
+I20240412 09:40:26.717784  7388 engine.cc:144] updated property: client_app
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: ascii_mode
+I20240412 09:40:26.717784  7388 engine.cc:144] updated property: client_type
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: soft_cursor
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:26.717784  7388 engine.cc:130] updated option: soft_cursor
+I20240412 09:40:30.909452 15848 engine.cc:74] starting engine.
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: full_shape
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: traditionalization
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: _auto_commit
+I20240412 09:40:30.909452 15848 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:40:30.909452 15848 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:40:30.909452 15848 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: ascii_mode
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: traditionalization
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: emoji
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: full_shape
+I20240412 09:40:30.909452 15848 engine.cc:144] updated property: client_app
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: ascii_mode
+I20240412 09:40:30.909452 15848 engine.cc:144] updated property: client_type
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: soft_cursor
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:30.909452 15848 engine.cc:130] updated option: soft_cursor
+I20240412 09:40:57.979846 34448 engine.cc:74] starting engine.
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: full_shape
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: traditionalization
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: _auto_commit
+I20240412 09:40:57.979846 34448 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:40:57.979846 34448 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:40:57.979846 34448 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: ascii_mode
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: ascii_punct
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: traditionalization
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: emoji
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: full_shape
+I20240412 09:40:57.979846 34448 engine.cc:144] updated property: client_app
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: ascii_mode
+I20240412 09:40:57.979846 34448 engine.cc:144] updated property: client_type
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: soft_cursor
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: inline_preedit
+I20240412 09:40:57.979846 34448 engine.cc:130] updated option: soft_cursor
+I20240412 09:41:42.060098 25300 engine.cc:74] starting engine.
+I20240412 09:41:42.060098 25300 engine.cc:130] updated option: ascii_punct
+I20240412 09:41:42.060098 25300 engine.cc:130] updated option: full_shape
+I20240412 09:41:42.060098 25300 engine.cc:130] updated option: traditionalization
+I20240412 09:41:42.060098 25300 engine.cc:130] updated option: _auto_commit
+I20240412 09:41:42.061100 25300 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:41:42.061100 25300 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:41:42.061100 25300 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: ascii_mode
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: ascii_punct
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: traditionalization
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: emoji
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: full_shape
+I20240412 09:41:42.061100 25300 engine.cc:144] updated property: client_app
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: ascii_mode
+I20240412 09:41:42.061100 25300 engine.cc:144] updated property: client_type
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: inline_preedit
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: soft_cursor
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: inline_preedit
+I20240412 09:41:42.061100 25300 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:04.129513  9760 engine.cc:74] starting engine.
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: full_shape
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: traditionalization
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: _auto_commit
+I20240412 09:42:04.129513  9760 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:42:04.129513  9760 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:42:04.129513  9760 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: traditionalization
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: emoji
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: full_shape
+I20240412 09:42:04.129513  9760 engine.cc:144] updated property: client_app
+I20240412 09:42:04.129513  9760 engine.cc:144] updated property: client_type
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:04.129513  9760 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:04.146703  9760 engine.cc:93] engine disposed.
+I20240412 09:42:08.109848 20432 engine.cc:74] starting engine.
+I20240412 09:42:08.109848 20432 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:08.109848 20432 engine.cc:130] updated option: full_shape
+I20240412 09:42:08.109848 20432 engine.cc:130] updated option: traditionalization
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: _auto_commit
+I20240412 09:42:08.110895 20432 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:42:08.110895 20432 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:42:08.110895 20432 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: traditionalization
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: emoji
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: full_shape
+I20240412 09:42:08.110895 20432 engine.cc:144] updated property: client_app
+I20240412 09:42:08.110895 20432 engine.cc:144] updated property: client_type
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:08.110895 20432 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:08.255165 20432 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:12.401408 31244 engine.cc:74] starting engine.
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: full_shape
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: traditionalization
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: _auto_commit
+I20240412 09:42:12.402407 31244 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:42:12.402407 31244 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:42:12.402407 31244 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: traditionalization
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: emoji
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: full_shape
+I20240412 09:42:12.402407 31244 engine.cc:144] updated property: client_app
+I20240412 09:42:12.402407 31244 engine.cc:144] updated property: client_type
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:12.402407 31244 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:12.410457 31244 engine.cc:93] engine disposed.
+I20240412 09:42:13.117591  1048 engine.cc:74] starting engine.
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: full_shape
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: traditionalization
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: _auto_commit
+I20240412 09:42:13.117591  1048 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:42:13.117591  1048 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:42:13.117591  1048 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: traditionalization
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: emoji
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: full_shape
+I20240412 09:42:13.117591  1048 engine.cc:144] updated property: client_app
+I20240412 09:42:13.117591  1048 engine.cc:144] updated property: client_type
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:13.117591  1048 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:13.128446  1048 engine.cc:93] engine disposed.
+I20240412 09:42:14.197499 21292 engine.cc:74] starting engine.
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: full_shape
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: traditionalization
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: _auto_commit
+I20240412 09:42:14.197499 21292 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:42:14.197499 21292 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:42:14.197499 21292 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: traditionalization
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: emoji
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: full_shape
+I20240412 09:42:14.197499 21292 engine.cc:144] updated property: client_app
+I20240412 09:42:14.197499 21292 engine.cc:144] updated property: client_type
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:14.197499 21292 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:14.213073 21292 engine.cc:93] engine disposed.
+I20240412 09:42:15.104035  4304 engine.cc:74] starting engine.
+I20240412 09:42:15.104035  4304 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:15.104035  4304 engine.cc:130] updated option: full_shape
+I20240412 09:42:15.104035  4304 engine.cc:130] updated option: traditionalization
+I20240412 09:42:15.104035  4304 engine.cc:130] updated option: _auto_commit
+I20240412 09:42:15.104035  4304 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:42:15.104035  4304 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:42:15.104035  4304 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: traditionalization
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: emoji
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: full_shape
+I20240412 09:42:15.105036  4304 engine.cc:144] updated property: client_app
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:15.105036  4304 engine.cc:144] updated property: client_type
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:15.105036  4304 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:16.770080  4304 engine.cc:93] engine disposed.
+I20240412 09:42:59.957298 32824 engine.cc:74] starting engine.
+I20240412 09:42:59.957298 32824 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:59.957298 32824 engine.cc:130] updated option: full_shape
+I20240412 09:42:59.957298 32824 engine.cc:130] updated option: traditionalization
+I20240412 09:42:59.957298 32824 engine.cc:130] updated option: _auto_commit
+I20240412 09:42:59.957298 32824 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:42:59.958297 32824 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:42:59.958297 32824 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: ascii_mode
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: ascii_punct
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: traditionalization
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: emoji
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: full_shape
+I20240412 09:42:59.958297 32824 engine.cc:144] updated property: client_app
+I20240412 09:42:59.958297 32824 engine.cc:144] updated property: client_type
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: soft_cursor
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: inline_preedit
+I20240412 09:42:59.958297 32824 engine.cc:130] updated option: soft_cursor
+I20240412 09:43:01.636930 28136 engine.cc:74] starting engine.
+I20240412 09:43:01.636930 28136 engine.cc:130] updated option: ascii_punct
+I20240412 09:43:01.636930 28136 engine.cc:130] updated option: full_shape
+I20240412 09:43:01.636930 28136 engine.cc:130] updated option: traditionalization
+I20240412 09:43:01.636930 28136 engine.cc:130] updated option: _auto_commit
+I20240412 09:43:01.637590 28136 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:43:01.637590 28136 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:43:01.637590 28136 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: ascii_mode
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: ascii_punct
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: traditionalization
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: emoji
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: full_shape
+I20240412 09:43:01.637590 28136 engine.cc:144] updated property: client_app
+I20240412 09:43:01.637590 28136 engine.cc:144] updated property: client_type
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: inline_preedit
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: soft_cursor
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: inline_preedit
+I20240412 09:43:01.637590 28136 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:11.293852 22508 engine.cc:74] starting engine.
+I20240412 09:44:11.293852 22508 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:11.293852 22508 engine.cc:130] updated option: full_shape
+I20240412 09:44:11.293852 22508 engine.cc:130] updated option: traditionalization
+I20240412 09:44:11.293852 22508 engine.cc:130] updated option: _auto_commit
+I20240412 09:44:11.293852 22508 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:44:11.293852 22508 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:44:11.294850 22508 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: ascii_mode
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: traditionalization
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: emoji
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: full_shape
+I20240412 09:44:11.294850 22508 engine.cc:144] updated property: client_app
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: ascii_mode
+I20240412 09:44:11.294850 22508 engine.cc:144] updated property: client_type
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:11.294850 22508 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:15.379515  3712 engine.cc:74] starting engine.
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: full_shape
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: traditionalization
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: _auto_commit
+I20240412 09:44:15.379515  3712 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:44:15.379515  3712 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:44:15.379515  3712 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: ascii_mode
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: traditionalization
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: emoji
+I20240412 09:44:15.379515  3712 engine.cc:130] updated option: full_shape
+I20240412 09:44:15.380542  3712 engine.cc:144] updated property: client_app
+I20240412 09:44:15.380542  3712 engine.cc:144] updated property: client_type
+I20240412 09:44:15.380542  3712 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:15.380542  3712 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:15.380542  3712 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:15.380542  3712 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:16.674554  3712 engine.cc:93] engine disposed.
+I20240412 09:44:17.933079  5768 engine.cc:74] starting engine.
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: full_shape
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: traditionalization
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: _auto_commit
+I20240412 09:44:17.933079  5768 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:44:17.933079  5768 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:44:17.933079  5768 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: ascii_mode
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: traditionalization
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: emoji
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: full_shape
+I20240412 09:44:17.933079  5768 engine.cc:144] updated property: client_app
+I20240412 09:44:17.933079  5768 engine.cc:144] updated property: client_type
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:17.933079  5768 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:27.446161  5768 engine.cc:93] engine disposed.
+I20240412 09:44:28.259209  3848 engine.cc:93] engine disposed.
+I20240412 09:44:28.492630 15372 engine.cc:74] starting engine.
+I20240412 09:44:28.492630 15372 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:28.492630 15372 engine.cc:130] updated option: full_shape
+I20240412 09:44:28.492630 15372 engine.cc:130] updated option: traditionalization
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: _auto_commit
+I20240412 09:44:28.493211 15372 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:44:28.493211 15372 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:44:28.493211 15372 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: ascii_mode
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: traditionalization
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: emoji
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: full_shape
+I20240412 09:44:28.493211 15372 engine.cc:144] updated property: client_app
+I20240412 09:44:28.493211 15372 engine.cc:144] updated property: client_type
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:28.493211 15372 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:28.493713 15372 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:28.493713 15372 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:28.871397 22508 engine.cc:93] engine disposed.
+I20240412 09:44:32.463964 32732 engine.cc:74] starting engine.
+I20240412 09:44:32.463964 32732 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:32.463964 32732 engine.cc:130] updated option: full_shape
+I20240412 09:44:32.463964 32732 engine.cc:130] updated option: traditionalization
+I20240412 09:44:32.463964 32732 engine.cc:130] updated option: _auto_commit
+I20240412 09:44:32.463964 32732 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:44:32.463964 32732 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:44:32.463964 32732 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:44:32.464473 32732 engine.cc:130] updated option: ascii_mode
+I20240412 09:44:32.464473 32732 engine.cc:130] updated option: ascii_punct
+I20240412 09:44:32.464473 32732 engine.cc:130] updated option: traditionalization
+I20240412 09:44:32.464473 32732 engine.cc:130] updated option: emoji
+I20240412 09:44:32.464473 32732 engine.cc:130] updated option: full_shape
+I20240412 09:44:32.464473 32732 engine.cc:144] updated property: client_app
+I20240412 09:44:32.464473 32732 engine.cc:144] updated property: client_type
+I20240412 09:44:32.464473 32732 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:32.464473 32732 engine.cc:130] updated option: soft_cursor
+I20240412 09:44:32.464630 32732 engine.cc:130] updated option: inline_preedit
+I20240412 09:44:32.464630 32732 engine.cc:130] updated option: soft_cursor
+I20240412 09:45:31.190948 32744 engine.cc:74] starting engine.
+I20240412 09:45:31.191964 32744 engine.cc:130] updated option: ascii_punct
+I20240412 09:45:31.191964 32744 engine.cc:130] updated option: full_shape
+I20240412 09:45:31.191964 32744 engine.cc:130] updated option: traditionalization
+I20240412 09:45:31.191964 32744 engine.cc:130] updated option: _auto_commit
+I20240412 09:45:31.191964 32744 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:45:31.191964 32744 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:45:31.191964 32744 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: ascii_mode
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: ascii_punct
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: traditionalization
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: emoji
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: full_shape
+I20240412 09:45:31.192945 32744 engine.cc:144] updated property: client_app
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: ascii_mode
+I20240412 09:45:31.192945 32744 engine.cc:144] updated property: client_type
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: inline_preedit
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: soft_cursor
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: inline_preedit
+I20240412 09:45:31.192945 32744 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:21.450851 26040 engine.cc:74] starting engine.
+I20240412 09:46:21.450851 26040 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:21.450851 26040 engine.cc:130] updated option: full_shape
+I20240412 09:46:21.450851 26040 engine.cc:130] updated option: traditionalization
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: _auto_commit
+I20240412 09:46:21.451851 26040 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:46:21.451851 26040 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:46:21.451851 26040 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: ascii_mode
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: traditionalization
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: emoji
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: full_shape
+I20240412 09:46:21.451851 26040 engine.cc:144] updated property: client_app
+I20240412 09:46:21.451851 26040 engine.cc:144] updated property: client_type
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:21.451851 26040 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:21.462951 26040 engine.cc:93] engine disposed.
+I20240412 09:46:23.605391 18652 engine.cc:74] starting engine.
+I20240412 09:46:23.605391 18652 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:23.605391 18652 engine.cc:130] updated option: full_shape
+I20240412 09:46:23.605391 18652 engine.cc:130] updated option: traditionalization
+I20240412 09:46:23.605391 18652 engine.cc:130] updated option: _auto_commit
+I20240412 09:46:23.605391 18652 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:46:23.605893 18652 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:46:23.605893 18652 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: ascii_mode
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: traditionalization
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: emoji
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: full_shape
+I20240412 09:46:23.606403 18652 engine.cc:144] updated property: client_app
+I20240412 09:46:23.606403 18652 engine.cc:144] updated property: client_type
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:23.606403 18652 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:23.620004 18652 engine.cc:93] engine disposed.
+I20240412 09:46:24.137579  8696 engine.cc:74] starting engine.
+I20240412 09:46:24.137579  8696 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:24.137579  8696 engine.cc:130] updated option: full_shape
+I20240412 09:46:24.137579  8696 engine.cc:130] updated option: traditionalization
+I20240412 09:46:24.137579  8696 engine.cc:130] updated option: _auto_commit
+I20240412 09:46:24.138579  8696 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:46:24.138579  8696 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:46:24.138579  8696 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: ascii_mode
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: traditionalization
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: emoji
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: full_shape
+I20240412 09:46:24.138579  8696 engine.cc:144] updated property: client_app
+I20240412 09:46:24.138579  8696 engine.cc:144] updated property: client_type
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:24.138579  8696 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:24.152091  8696 engine.cc:93] engine disposed.
+I20240412 09:46:25.789800 13644 engine.cc:74] starting engine.
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: full_shape
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: traditionalization
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: _auto_commit
+I20240412 09:46:25.789800 13644 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:46:25.789800 13644 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:46:25.789800 13644 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: ascii_mode
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: traditionalization
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: emoji
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: full_shape
+I20240412 09:46:25.789800 13644 engine.cc:144] updated property: client_app
+I20240412 09:46:25.789800 13644 engine.cc:144] updated property: client_type
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:25.789800 13644 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:25.806517 13644 engine.cc:93] engine disposed.
+I20240412 09:46:37.988756  3692 engine.cc:74] starting engine.
+I20240412 09:46:37.988756  3692 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:37.988756  3692 engine.cc:130] updated option: full_shape
+I20240412 09:46:37.988756  3692 engine.cc:130] updated option: traditionalization
+I20240412 09:46:37.988756  3692 engine.cc:130] updated option: _auto_commit
+I20240412 09:46:37.988756  3692 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:46:37.988756  3692 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:46:37.988756  3692 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:46:37.989269  3692 engine.cc:130] updated option: ascii_mode
+I20240412 09:46:37.989269  3692 engine.cc:130] updated option: ascii_punct
+I20240412 09:46:37.989269  3692 engine.cc:130] updated option: traditionalization
+I20240412 09:46:37.989324  3692 engine.cc:130] updated option: emoji
+I20240412 09:46:37.989324  3692 engine.cc:130] updated option: full_shape
+I20240412 09:46:37.989324  3692 engine.cc:144] updated property: client_app
+I20240412 09:46:37.989324  3692 engine.cc:130] updated option: ascii_mode
+I20240412 09:46:37.989324  3692 engine.cc:144] updated property: client_type
+I20240412 09:46:37.989324  3692 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:37.989324  3692 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:37.989324  3692 engine.cc:130] updated option: inline_preedit
+I20240412 09:46:37.989324  3692 engine.cc:130] updated option: soft_cursor
+I20240412 09:46:38.951169  3692 engine.cc:93] engine disposed.
+I20240412 09:47:00.376721 20404 engine.cc:74] starting engine.
+I20240412 09:47:00.376721 20404 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:00.376721 20404 engine.cc:130] updated option: full_shape
+I20240412 09:47:00.376721 20404 engine.cc:130] updated option: traditionalization
+I20240412 09:47:00.376721 20404 engine.cc:130] updated option: _auto_commit
+I20240412 09:47:00.377722 20404 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:47:00.377722 20404 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:47:00.377722 20404 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: traditionalization
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: emoji
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: full_shape
+I20240412 09:47:00.377722 20404 engine.cc:144] updated property: client_app
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:00.377722 20404 engine.cc:144] updated property: client_type
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:00.377722 20404 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:02.721163 29728 engine.cc:74] starting engine.
+I20240412 09:47:02.721163 29728 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:02.721163 29728 engine.cc:130] updated option: full_shape
+I20240412 09:47:02.721163 29728 engine.cc:130] updated option: traditionalization
+I20240412 09:47:02.721163 29728 engine.cc:130] updated option: _auto_commit
+I20240412 09:47:02.721163 29728 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:47:02.721163 29728 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:47:02.721163 29728 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: traditionalization
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: emoji
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: full_shape
+I20240412 09:47:02.722136 29728 engine.cc:144] updated property: client_app
+I20240412 09:47:02.722136 29728 engine.cc:144] updated property: client_type
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:02.722136 29728 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:03.517663 29728 engine.cc:93] engine disposed.
+I20240412 09:47:04.229378  5664 engine.cc:74] starting engine.
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: full_shape
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: traditionalization
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: _auto_commit
+I20240412 09:47:04.229378  5664 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:47:04.229378  5664 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:47:04.229378  5664 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: traditionalization
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: emoji
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: full_shape
+I20240412 09:47:04.229378  5664 engine.cc:144] updated property: client_app
+I20240412 09:47:04.229378  5664 engine.cc:144] updated property: client_type
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:04.229378  5664 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:04.230383  5664 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:04.230383  5664 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:05.135715  5664 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:12.020048  5664 engine.cc:93] engine disposed.
+I20240412 09:47:12.151258 18308 engine.cc:74] starting engine.
+I20240412 09:47:12.151258 18308 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:12.151258 18308 engine.cc:130] updated option: full_shape
+I20240412 09:47:12.151258 18308 engine.cc:130] updated option: traditionalization
+I20240412 09:47:12.151258 18308 engine.cc:130] updated option: _auto_commit
+I20240412 09:47:12.151258 18308 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:47:12.151258 18308 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:47:12.151258 18308 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: traditionalization
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: emoji
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: full_shape
+I20240412 09:47:12.152261 18308 engine.cc:144] updated property: client_app
+I20240412 09:47:12.152261 18308 engine.cc:144] updated property: client_type
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:12.152261 18308 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:12.374629 26920 engine.cc:74] starting engine.
+I20240412 09:47:12.374629 26920 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:12.374629 26920 engine.cc:130] updated option: full_shape
+I20240412 09:47:12.374629 26920 engine.cc:130] updated option: traditionalization
+I20240412 09:47:12.374629 26920 engine.cc:130] updated option: _auto_commit
+I20240412 09:47:12.374629 26920 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:47:12.375627 26920 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:47:12.375627 26920 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: ascii_punct
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: traditionalization
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: emoji
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: full_shape
+I20240412 09:47:12.375627 26920 engine.cc:144] updated property: client_app
+I20240412 09:47:12.375627 26920 engine.cc:144] updated property: client_type
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: inline_preedit
+I20240412 09:47:12.375627 26920 engine.cc:130] updated option: soft_cursor
+I20240412 09:47:25.603560 20432 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:26.103093 20432 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:43.759214 18308 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:44.537009 18308 engine.cc:130] updated option: ascii_mode
+I20240412 09:47:45.874519 18308 simplifier.cc:41] initializing opencc: C:\Users\Parsifal\AppData\Roaming\Rime\opencc\emoji.json
+I20240412 09:48:13.584852 18308 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:14.007522 18308 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:19.830124 18308 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:20.351814 18308 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:38.986548  8444 engine.cc:74] starting engine.
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: ascii_punct
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: full_shape
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: traditionalization
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: _auto_commit
+I20240412 09:48:38.986548  8444 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:48:38.986548  8444 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:48:38.986548  8444 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: ascii_punct
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: traditionalization
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: emoji
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: full_shape
+I20240412 09:48:38.986548  8444 engine.cc:144] updated property: client_app
+I20240412 09:48:38.986548  8444 engine.cc:144] updated property: client_type
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: inline_preedit
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: soft_cursor
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: inline_preedit
+I20240412 09:48:38.986548  8444 engine.cc:130] updated option: soft_cursor
+I20240412 09:48:39.194326  8444 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:40.289381 20432 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:41.039849 20432 engine.cc:130] updated option: ascii_mode
+E20240412 09:48:41.816711 20432 lua_gears.cc:225] LuaProcessor::ProcessKeyEvent of *vim_mode error(2): bad argument #2 to '?' (struct LuaType<class rime::Engine & __ptr64> expected)
+E20240412 09:48:41.968605 20432 lua_gears.cc:225] LuaProcessor::ProcessKeyEvent of *vim_mode error(2): bad argument #2 to '?' (struct LuaType<class rime::Engine & __ptr64> expected)
+E20240412 09:48:42.103155 20432 lua_gears.cc:225] LuaProcessor::ProcessKeyEvent of *vim_mode error(2): bad argument #2 to '?' (struct LuaType<class rime::Engine & __ptr64> expected)
+I20240412 09:48:48.982872 34584 simplifier.cc:41] initializing opencc: C:\Users\Parsifal\AppData\Roaming\Rime\opencc\emoji.json
+I20240412 09:48:59.161687 18572 engine.cc:74] starting engine.
+I20240412 09:48:59.161687 18572 engine.cc:130] updated option: ascii_punct
+I20240412 09:48:59.161687 18572 engine.cc:130] updated option: full_shape
+I20240412 09:48:59.161687 18572 engine.cc:130] updated option: traditionalization
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: _auto_commit
+I20240412 09:48:59.162688 18572 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:48:59.162688 18572 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:48:59.162688 18572 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: ascii_mode
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: ascii_punct
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: traditionalization
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: emoji
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: full_shape
+I20240412 09:48:59.162688 18572 engine.cc:144] updated property: client_app
+I20240412 09:48:59.162688 18572 engine.cc:144] updated property: client_type
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: inline_preedit
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: soft_cursor
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: inline_preedit
+I20240412 09:48:59.162688 18572 engine.cc:130] updated option: soft_cursor
+I20240412 09:49:10.711377 34408 simplifier.cc:41] initializing opencc: C:\Users\Parsifal\AppData\Roaming\Rime\opencc\emoji.json
+I20240412 09:49:12.415344 34408 engine.cc:130] updated option: ascii_mode
+I20240412 09:49:13.117892 34408 engine.cc:130] updated option: ascii_mode
+I20240412 09:49:14.583057 27008 engine.cc:74] starting engine.
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: ascii_punct
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: full_shape
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: traditionalization
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: _auto_commit
+I20240412 09:49:14.583057 27008 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:49:14.583057 27008 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:49:14.583057 27008 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: ascii_mode
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: ascii_punct
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: traditionalization
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: emoji
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: full_shape
+I20240412 09:49:14.583057 27008 engine.cc:144] updated property: client_app
+I20240412 09:49:14.583057 27008 engine.cc:130] updated option: ascii_mode
+I20240412 09:49:14.583057 27008 engine.cc:144] updated property: client_type
+I20240412 09:49:14.584050 27008 engine.cc:130] updated option: inline_preedit
+I20240412 09:49:14.584050 27008 engine.cc:130] updated option: soft_cursor
+I20240412 09:49:14.584050 27008 engine.cc:130] updated option: inline_preedit
+I20240412 09:49:14.584050 27008 engine.cc:130] updated option: soft_cursor
+I20240412 09:49:15.459439 27008 engine.cc:130] updated option: ascii_mode
+I20240412 09:49:16.708303 27008 simplifier.cc:41] initializing opencc: C:\Users\Parsifal\AppData\Roaming\Rime\opencc\emoji.json
+I20240412 09:49:17.216434 27008 engine.cc:130] updated option: ascii_mode
+I20240412 09:49:18.129645 27008 engine.cc:130] updated option: ascii_mode
+I20240412 09:49:48.943482 27008 engine.cc:93] engine disposed.
+I20240412 09:49:50.066823 18572 engine.cc:93] engine disposed.
+I20240412 09:50:18.345810 27160 engine.cc:74] starting engine.
+I20240412 09:50:18.345810 27160 engine.cc:130] updated option: ascii_punct
+I20240412 09:50:18.345810 27160 engine.cc:130] updated option: full_shape
+I20240412 09:50:18.345810 27160 engine.cc:130] updated option: traditionalization
+I20240412 09:50:18.345810 27160 engine.cc:130] updated option: _auto_commit
+I20240412 09:50:18.346809 27160 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:50:18.346809 27160 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:50:18.346809 27160 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: ascii_mode
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: ascii_punct
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: traditionalization
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: emoji
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: full_shape
+I20240412 09:50:18.346809 27160 engine.cc:144] updated property: client_app
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: ascii_mode
+I20240412 09:50:18.346809 27160 engine.cc:144] updated property: client_type
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: inline_preedit
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: soft_cursor
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: inline_preedit
+I20240412 09:50:18.346809 27160 engine.cc:130] updated option: soft_cursor
+I20240412 09:50:56.713164 34376 engine.cc:74] starting engine.
+I20240412 09:50:56.713164 34376 engine.cc:130] updated option: ascii_punct
+I20240412 09:50:56.713164 34376 engine.cc:130] updated option: full_shape
+I20240412 09:50:56.713164 34376 engine.cc:130] updated option: traditionalization
+I20240412 09:50:56.713164 34376 engine.cc:130] updated option: _auto_commit
+I20240412 09:50:56.713164 34376 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:50:56.713164 34376 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:50:56.713164 34376 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:50:56.713164 34376 engine.cc:130] updated option: ascii_mode
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: ascii_punct
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: traditionalization
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: emoji
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: full_shape
+I20240412 09:50:56.714164 34376 engine.cc:144] updated property: client_app
+I20240412 09:50:56.714164 34376 engine.cc:144] updated property: client_type
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: inline_preedit
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: soft_cursor
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: inline_preedit
+I20240412 09:50:56.714164 34376 engine.cc:130] updated option: soft_cursor
+I20240412 09:50:57.563984 34376 engine.cc:93] engine disposed.
+I20240412 09:51:10.700188 22708 engine.cc:74] starting engine.
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: ascii_punct
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: full_shape
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: traditionalization
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: _auto_commit
+I20240412 09:51:10.700188 22708 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:51:10.700188 22708 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:51:10.700188 22708 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: ascii_mode
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: ascii_punct
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: traditionalization
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: emoji
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: full_shape
+I20240412 09:51:10.700188 22708 engine.cc:144] updated property: client_app
+I20240412 09:51:10.700188 22708 engine.cc:144] updated property: client_type
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: inline_preedit
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: soft_cursor
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: inline_preedit
+I20240412 09:51:10.700188 22708 engine.cc:130] updated option: soft_cursor
+I20240412 09:51:16.617759 15372 engine.cc:93] engine disposed.
+I20240412 09:51:16.833343 25328 engine.cc:74] starting engine.
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: ascii_punct
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: full_shape
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: traditionalization
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: _auto_commit
+I20240412 09:51:16.833343 25328 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:51:16.833343 25328 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:51:16.833343 25328 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: ascii_mode
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: ascii_punct
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: traditionalization
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: emoji
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: full_shape
+I20240412 09:51:16.833343 25328 engine.cc:144] updated property: client_app
+I20240412 09:51:16.833343 25328 engine.cc:144] updated property: client_type
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: inline_preedit
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: soft_cursor
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: inline_preedit
+I20240412 09:51:16.833343 25328 engine.cc:130] updated option: soft_cursor
+I20240412 09:51:31.456923 25328 engine.cc:93] engine disposed.
+I20240412 09:51:31.639555 23944 engine.cc:74] starting engine.
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: ascii_punct
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: full_shape
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: traditionalization
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: _auto_commit
+I20240412 09:51:31.639555 23944 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:51:31.639555 23944 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:51:31.639555 23944 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: ascii_mode
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: ascii_punct
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: traditionalization
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: emoji
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: full_shape
+I20240412 09:51:31.639555 23944 engine.cc:144] updated property: client_app
+I20240412 09:51:31.639555 23944 engine.cc:144] updated property: client_type
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: inline_preedit
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: soft_cursor
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: inline_preedit
+I20240412 09:51:31.639555 23944 engine.cc:130] updated option: soft_cursor
+I20240412 09:52:25.315078 22660 engine.cc:74] starting engine.
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: ascii_punct
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: full_shape
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: traditionalization
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: _auto_commit
+I20240412 09:52:25.315078 22660 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:52:25.315078 22660 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:52:25.315078 22660 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: ascii_mode
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: ascii_punct
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: traditionalization
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: emoji
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: full_shape
+I20240412 09:52:25.315078 22660 engine.cc:144] updated property: client_app
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: ascii_mode
+I20240412 09:52:25.315078 22660 engine.cc:144] updated property: client_type
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: inline_preedit
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: soft_cursor
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: inline_preedit
+I20240412 09:52:25.315078 22660 engine.cc:130] updated option: soft_cursor
+I20240412 09:52:26.985255 22660 engine.cc:93] engine disposed.
+I20240412 09:52:48.712976 23944 engine.cc:93] engine disposed.
+I20240412 09:52:49.126897  8288 engine.cc:74] starting engine.
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: ascii_punct
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: full_shape
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: traditionalization
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: _auto_commit
+I20240412 09:52:49.126897  8288 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:52:49.126897  8288 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:52:49.126897  8288 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: ascii_mode
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: ascii_punct
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: traditionalization
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: emoji
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: full_shape
+I20240412 09:52:49.126897  8288 engine.cc:144] updated property: client_app
+I20240412 09:52:49.126897  8288 engine.cc:144] updated property: client_type
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: inline_preedit
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: soft_cursor
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: inline_preedit
+I20240412 09:52:49.126897  8288 engine.cc:130] updated option: soft_cursor
+I20240412 09:52:50.053516 13204 engine.cc:74] starting engine.
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: ascii_punct
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: full_shape
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: traditionalization
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: _auto_commit
+I20240412 09:52:50.053516 13204 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:52:50.053516 13204 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:52:50.053516 13204 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: ascii_mode
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: ascii_punct
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: traditionalization
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: emoji
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: full_shape
+I20240412 09:52:50.053516 13204 engine.cc:144] updated property: client_app
+I20240412 09:52:50.053516 13204 engine.cc:144] updated property: client_type
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: inline_preedit
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: soft_cursor
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: inline_preedit
+I20240412 09:52:50.053516 13204 engine.cc:130] updated option: soft_cursor
+I20240412 09:53:07.187707 13204 engine.cc:130] updated option: ascii_mode
+I20240412 09:53:36.616648 34584 engine.cc:130] updated option: ascii_mode
+I20240412 09:53:37.497530 34584 engine.cc:130] updated option: ascii_mode
+I20240412 09:53:40.605732 15608 engine.cc:74] starting engine.
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: ascii_punct
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: full_shape
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: traditionalization
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: _auto_commit
+I20240412 09:53:40.606734 15608 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:53:40.606734 15608 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:53:40.606734 15608 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: ascii_mode
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: ascii_punct
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: traditionalization
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: emoji
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: full_shape
+I20240412 09:53:40.606734 15608 engine.cc:144] updated property: client_app
+I20240412 09:53:40.606734 15608 engine.cc:144] updated property: client_type
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: inline_preedit
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: soft_cursor
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: inline_preedit
+I20240412 09:53:40.606734 15608 engine.cc:130] updated option: soft_cursor
+I20240412 09:53:42.605473  3144 engine.cc:74] starting engine.
+I20240412 09:53:42.605473  3144 engine.cc:130] updated option: ascii_punct
+I20240412 09:53:42.605473  3144 engine.cc:130] updated option: full_shape
+I20240412 09:53:42.605473  3144 engine.cc:130] updated option: traditionalization
+I20240412 09:53:42.605473  3144 engine.cc:130] updated option: _auto_commit
+I20240412 09:53:42.605976  3144 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:53:42.606029  3144 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:53:42.606029  3144 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: ascii_mode
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: ascii_punct
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: traditionalization
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: emoji
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: full_shape
+I20240412 09:53:42.606029  3144 engine.cc:144] updated property: client_app
+I20240412 09:53:42.606029  3144 engine.cc:144] updated property: client_type
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: inline_preedit
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: soft_cursor
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: inline_preedit
+I20240412 09:53:42.606029  3144 engine.cc:130] updated option: soft_cursor
+I20240412 09:54:23.363500  3144 engine.cc:93] engine disposed.
+I20240412 09:54:23.387107  4456 engine.cc:74] starting engine.
+I20240412 09:54:23.387107  4456 engine.cc:130] updated option: ascii_punct
+I20240412 09:54:23.387107  4456 engine.cc:130] updated option: full_shape
+I20240412 09:54:23.387107  4456 engine.cc:130] updated option: traditionalization
+I20240412 09:54:23.387107  4456 engine.cc:130] updated option: _auto_commit
+I20240412 09:54:23.387107  4456 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240412 09:54:23.387107  4456 table_db.cc:73] stabledb 'custom_phrase_double' does not exist.
+I20240412 09:54:23.387107  4456 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: ascii_mode
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: ascii_punct
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: traditionalization
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: emoji
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: full_shape
+I20240412 09:54:23.388108  4456 engine.cc:144] updated property: client_app
+I20240412 09:54:23.388108  4456 engine.cc:144] updated property: client_type
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: inline_preedit
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: soft_cursor
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: inline_preedit
+I20240412 09:54:23.388108  4456 engine.cc:130] updated option: soft_cursor
+I20240412 09:54:25.160883 15608 engine.cc:93] engine disposed.
+I20240412 09:54:37.869064  4456 engine.cc:93] engine disposed.
+I20240412 09:54:38.136368 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.136368 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137056 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137056 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137056 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137056 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137056 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137056 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137056 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137563 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137563 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137563 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137563 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137876 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137876 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137876 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137876 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137876 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137876 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.137876 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.138907 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.138907 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139451 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139451 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139451 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139451 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139451 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139979 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139979 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.139979 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.140606 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.141755 21456 engine.cc:93] engine disposed.
+I20240412 09:54:38.142279 21456 engine.cc:93] engi
