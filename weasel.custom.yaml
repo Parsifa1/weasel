@@ -6,7 +6,7 @@ customization:
   rime_version: 1.8.5
 patch: #补丁
   "preset_color_schemes/+":
-    __include: "weasel_style:/preset_color_schemes"
+    __include: "weasel_config:/preset_color_schemes"
   "style/+":
-    __include: "weasel_style:/style"
-  __include: "weasel_style:/app_opt"
+    __include: "weasel_config:/style"
+  __include: "weasel_config:/app_opt"

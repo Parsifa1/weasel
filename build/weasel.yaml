@@ -1,15 +1,15 @@
-PowerToys.PowerLauncher.exe:
-  ascii_mode: true
-PowerToys.exe:
-  ascii_mode: true
 __build_info:
-  rime_version: 1.9.0
+  rime_version: 1.11.2
   timestamps:
-    weasel: 1706639319
-    weasel.custom: 1712406289
-    weasel_style: 1709380228
-    weasel_style.custom: 0
+    weasel: 1715698405
+    weasel.custom: 1716965853
+    weasel_config: 1716967930
+    weasel_config.custom: 0
 app_options:
+  PowerToys.PowerLauncher.exe:
+    ascii_mode: true
+  PowerToys.exe:
+    ascii_mode: true
   cmd.exe:
     ascii_mode: true
   code.exe:
@@ -18,11 +18,18 @@ app_options:
     ascii_mode: true
   explorer.exe:
     ascii_mode: true
+  firefox.exe:
+    inline_preedit: true
+  neovide.exe:
+    ascii_mode: true
+    vim_mode: true
   "wezterm-gui.exe":
     ascii_mode: true
-  wsl.exe:
-    ascii_mode: true
+    vim_mode: true
+  windowsterminal.exe:
+    vim_mode: true
 config_version: 0.22
+global_ascii: false
 preset_color_schemes:
   dark_color:
     author: "parsifa1 <li.aldric@gmail.com>, based on dark_temple"
@@ -36,10 +43,11 @@ preset_color_schemes:
     hilited_text_color: 0xffcf9a
     name: dark_color
     text_color: 0xE2CCFF
+show_notifications: true
+show_notifications_time: 1200
 style:
-  ascii_tip_follow_cursor: false
+  ascii_tip_follow_cursor: true
   color_scheme: dark_color
-  display_tray_icon: false
   font_face: "LXGW WenKai"
   font_point: 13
   horizontal: true
@@ -64,5 +72,3 @@ style:
     spacing: 10
     type: horizontal
   preedit_type: composition
-windowsterminal.exe:
-  ascii_mode: true

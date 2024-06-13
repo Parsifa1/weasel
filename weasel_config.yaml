@@ -10,13 +10,12 @@
 #     __include: "weasel_style_copy:/style"
 style:
   font_face: "LXGW WenKai"
-  display_tray_icon: false
   font_point: 13
   inline_preedit: false
   horizontal: true
+  ascii_tip_follow_cursor: true #语言转换跟随鼠标
   color_scheme: dark_color
   preedit_type: composition
-  ascii_tip_follow_cursor: false #语言转换跟随鼠标
   layout:
     align_type: center
     max_height: 0
@@ -38,22 +37,15 @@ style:
     round_corner: 7
 
 app_opt:
-  app_options/wezterm-gui.exe:
-      ascii_mode: true
-  app_options/code.exe:
-      ascii_mode: true
-  app_options/explorer.exe:
-      ascii_mode: true
-  app_options/wsl.exe:
-      ascii_mode: true
-  app_options/conhost.exe:
-      ascii_mode: true
-  windowsterminal.exe:
-      ascii_mode: true
-  PowerToys.PowerLauncher.exe:
-      ascii_mode: true
-  PowerToys.exe:
-      ascii_mode: true
+  app_options/wezterm-gui.exe/vim_mode: true
+  app_options/wezterm-gui.exe/ascii_mode: true
+  app_options/neovide.exe/vim_mode: true
+  app_options/neovide.exe/ascii_mode: true
+  app_options/code.exe/ascii_mode: true
+  app_options/explorer.exe/ascii_mode: true
+  app_options/windowsterminal.exe/vim_mode: true
+  app_options/PowerToys.PowerLauncher.exe/ascii_mode: true
+  app_options/PowerToys.exe/ascii_mode: true
 
 preset_color_schemes:
   dark_color:
