@@ -46,6 +46,8 @@ app_opt:
   app_options/windowsterminal.exe/vim_mode: true
   app_options/PowerToys.PowerLauncher.exe/ascii_mode: true
   app_options/PowerToys.exe/ascii_mode: true
+  app_options/pycharm64.exe/vim_mode: true
+  app_options/idea64.exe/vim_mode: true
 
 preset_color_schemes:
   dark_color:
