@@ -1,0 +1,29 @@
+# Rime user dictionary
+#@/db_name	rime_ice
+#@/db_type	userdb
+#@/rime_version	1.11.2
+#@/tick	22
+#@/user_id	LAPTOP-ALDRIC
+a 	啊	c=0 d=0.1 t=15
+bao ming 	包名	c=3 d=2.95064 t=14
+bu ming bai 	不明白	c=0 d=0.1 t=10
+cha kan 	查看	c=1 d=1 t=20
+fan le ban tian 	翻了半天	c=1 d=1 t=18
+huo qu 	获取	c=0 d=0.1 t=15
+huo qu a 	获取啊	c=1 d=1 t=16
+kai tou 	开头	c=1 d=1 t=9
+o 	哦	c=1 d=1 t=19
+qi dong xiang 	启动项	c=1 d=1 t=4
+ruan jian 	软件	c=2 d=1.99501 t=7
+sha de 	啥的	c=1 d=1 t=5
+shen me 	什么	c=1 d=1 t=3
+shi ba 	是吧	c=1 d=1 t=21
+shu xu guan 	鼠须管	c=2 d=1.90484 t=22
+wo 	我	c=1 d=1 t=17
+xiang 	像	c=1 d=1 t=12
+xiao lang hao 	小狼毫	c=1 d=1 t=1
+yong 	用	c=0 d=0.1 t=10
+you dian 	有点	c=0 d=0.1 t=10
+you dian yong bu ming bai 	有点用不明白	c=1 d=1 t=11
+zen me 	怎么	c=1 d=1 t=15
+zhe zhong 	这种	c=1 d=1 t=13
