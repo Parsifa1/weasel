@@ -22,7 +22,14 @@ style:
   spacing: 10
 
 app_opt:
-  app_options/com.mitchellh.ghostty/vim_mode: true
+  app_options/com.mitchellh.ghostty:
+    vim_mode: true
+    ascii_mode: true
+  app_options/com.github.wez.wezterm:
+    vim_mode: true
+    ascii_mode: true
+  app_options/com.raycast.macos:
+    ascii_mode: true
 
 preset_color_schemes:
   dark_color:
