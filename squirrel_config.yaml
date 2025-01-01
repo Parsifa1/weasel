@@ -30,6 +30,9 @@ app_opt:
     ascii_mode: true
   app_options/com.raycast.macos:
     ascii_mode: true
+  app_options/md.obsidian:
+    ascii_mode: true
+    vim_mode: true
 
 preset_color_schemes:
   dark_color:
