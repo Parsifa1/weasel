@@ -1,0 +1,6 @@
+patch: #补丁
+  "preset_color_schemes/+":
+    __include: "weasel_config:/preset_color_schemes"
+  "style/+":
+    __include: "squirrel_config:/style"
+  __include: "squirrel_config:/app_opt"
