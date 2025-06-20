@@ -1,3 +1,8 @@
 logs/
 *.userdb/
 build/
+.DS_Store
+# rime 安装信息
+/installation.yaml
+# rime 用户状态
+/user.yaml
