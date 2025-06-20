@@ -10,35 +10,29 @@
 #     __include: "weasel_style_copy:/style"
 style:
   font_face: "LXGW WenKai"
-  font_point: 20
+  font_point: 17
   text_orientation: horizontal
-  # inline_preedit: false
-  # horizontal: true
-  # ascii_tip_follow_cursor: true #语言转换跟随鼠标
+  inline_preedit: false
+  candidate_list_layout: linear
   color_scheme: dark_color
-  # preedit_type: composition
-  layout:
-    align_type: center
-    max_height: 0
-    max_width: 0
-    min_height: 0
-    min_width: 160
-    type: horizontal
-    border_width: 3
-    margin_x: 12
-    margin_y: 12
-    spacing: 10
-    candidate_spacing: 5
-    hilite_spacing: 4
-    hilite_padding: 2
-    shadow_offset_x: 4
-    shadow_offset_y: 4
-    shadow_radius: 0
-    corner_radius: 8
-    round_corner: 7
+  preedit_type: composition
+  corner_radius: 8
+  round_corner: 7
+  border_width: 3
+  spacing: 10
 
 app_opt:
-  app_options/com.mitchellh.ghostty/vim_mode: true
+  app_options/com.mitchellh.ghostty:
+    vim_mode: true
+    ascii_mode: true
+  app_options/com.github.wez.wezterm:
+    vim_mode: true
+    ascii_mode: true
+  app_options/com.raycast.macos:
+    ascii_mode: true
+  app_options/md.obsidian:
+    ascii_mode: true
+    vim_mode: true
 
 preset_color_schemes:
   dark_color:
