@@ -33,6 +33,8 @@ app_opt:
   app_options/md.obsidian:
     ascii_mode: true
     vim_mode: true
+  app_options/ru.keepcoder.Telegram:
+    inline: true
 
 preset_color_schemes:
   dark_color:
