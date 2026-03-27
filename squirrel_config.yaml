@@ -25,6 +25,9 @@ app_opt:
   app_options/com.mitchellh.ghostty:
     vim_mode: true
     ascii_mode: true
+  app_options/com.neovide.neovide:
+    vim_mode: true
+    ascii_mode: true
   app_options/com.github.wez.wezterm:
     vim_mode: true
     ascii_mode: true
